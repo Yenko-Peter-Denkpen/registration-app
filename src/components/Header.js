@@ -1,13 +1,17 @@
-import React, { useEffect, useState, useContext } from 'react'
-import {Link, useNavigate} from 'react-router-dom'
+import React from 'react'
+import { useState, useEffect, useContext} from "react"
+import {Link, useNavigate} from "react-router-dom"
+import {FaSignOutAlt} from "react-icons/fa";
 
 function Header() {
     const navigate = useNavigate();
-    const {success, loading, user} = useContext()
+    const {success, loading, user,} = useContext()
   return (
-      <div>
-          
-      </div>
+    <div>
+    <h4> 
+    <FaSignOutAlt/> 
+    </h4>
+    </div>
   )
 }
 

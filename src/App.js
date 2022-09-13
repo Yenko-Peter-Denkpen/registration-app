@@ -1,11 +1,15 @@
-import React from 'react';
-import Home from './screens/Home';
-import Register from './screens/Register';
-import Login from './screens/Login';
+import React from 'react'
+import NavBar from './components/NavBar'
+import Home from './screens/Home'
+import Login from './screens/Login'
+import Register from './screens/Register'
 function App() {
   return (
-    <div>App</div>
+    <div>
+    <NavBar/>
+    </div>
   )
 }
 
 export default App
+
